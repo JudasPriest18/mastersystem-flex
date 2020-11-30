@@ -1,3 +1,4 @@
+$content_font_color:#333;
 .content {
   background: #E3E7F2;
   height: 474px;
@@ -10,7 +11,7 @@
 .content__heading {
   font-size: 24px;
   line-height: 24px;
-  color: #333333;
+  color: $content_font_color;
   padding-top: 90px;
 }
 .content__desc {
@@ -21,7 +22,7 @@
 }
 .content__list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .content__colum {
  justify-content: center;
@@ -37,7 +38,7 @@ align-items: center;
 .content__title {
   font-size: 14px;
   line-height: 18px;
-color: #333333;
+color: $content_font_color;
 padding-top: 10px;
 padding-bottom: 4px;
 
@@ -47,7 +48,7 @@ padding-bottom: 4px;
 .content__text {
   font-size: 12px;
   line-height: 16px;
-  color: #5F5F5F;
+  color: $content_font_color;
   opacity: 0.8;
   
 
@@ -81,7 +82,7 @@ padding-bottom: 4px;
 }
 @media (min-width:992px) {
   .content__desc{
-    padding: 40px 200px 100px;
+    
   }
 }
 @media (min-width:1200px) {
