@@ -15,7 +15,7 @@
   padding-top: 90px;
 }
 .content__desc {
-  font-size: 18px;
+  font-size: $font_size_title--big;
   line-height: 28px;
   color: #333333;
   opacity: 0.7;
@@ -36,7 +36,7 @@ align-items: center;
 }
 
 .content__title {
-  font-size: 14px;
+  font-size: $font_size_title;
   line-height: 18px;
 color: $content_font_color;
 padding-top: 10px;
@@ -46,7 +46,7 @@ padding-bottom: 4px;
 
 }
 .content__text {
-  font-size: 12px;
+  font-size: $font_size_desc;
   line-height: 16px;
   color: $content_font_color;
   opacity: 0.8;
@@ -71,11 +71,11 @@ padding-bottom: 4px;
     padding: 40px 90px 100px;
   }
   &__title {
-    font-size: 18px;
+    font-size: $font_size_title--big;
     line-height: 23px;
   }
   &__text {
-    font-size: 15px;
+    font-size: $font_size_text;
     line-height: 19px;
     }
   }
