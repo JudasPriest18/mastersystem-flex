@@ -1,7 +1,4 @@
-
-$header_font_color: #fff;
-$header_background_color:#005ED0;
-$button_color: #FF6100;
+@import "var.scss";
 .header {
     width: 100%;
     background-color: $header_background_color;

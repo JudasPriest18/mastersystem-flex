@@ -8,5 +8,6 @@ import './styles/fonts.scss'
 import './styles/inputs.scss'
 import './styles/img.scss'
 import './styles/content.scss'
+import './styles/var.scss'
 import './js/wrapper.js'
 
